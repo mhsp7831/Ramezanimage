@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Ramezanimage</title>
+    
+</head>
+<body>
+    
+
+    <div class="panel">
+        <h1>Ramezanimage</h1>
+
+        <div class="inputs">
+            <label for="textInput">متنتو اینجا بنویس:</label>
+            <textarea name="textInput" id="textInput" placeholder="من رمضانی را دوست دارم..."></textarea>
+            <div class="downloadBox">
+                <button href="#"onclick="downloadImage('jpg')">دانلود JPG</a>
+                <button onclick="downloadImage('webp')">دانلود WebP</a>
+            </div>
+        </div>
+        <p>برای استفاده از این تصویر به عنوان استیکر،<br /> روی «دانلود WebP» کلیک کنید و تصویر را در ایتا به صورت فایل ارسال کید.</p>
+    </div>
+
+    <div class="canvas">
+        <canvas id="mainCanvas"></canvas>
+    </div>
+    
+    <script src="assets/main.js"></script>
+</body>
+</html>
