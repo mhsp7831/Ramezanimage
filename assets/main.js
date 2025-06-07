@@ -1,4 +1,4 @@
-const imageSrc = 'assets/ramezani.png';
+const imageSrc = 'assets/ramezani.webp';
     const canvas = document.getElementById('mainCanvas');
     const ctx = canvas.getContext('2d');
     const input = document.getElementById('textInput');
